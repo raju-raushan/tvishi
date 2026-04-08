@@ -28,6 +28,7 @@ function GlobeParticles() {
   const ref = useRef();
   const count = 200;
 
+  // eslint-disable-next-line react-hooks/purity
   const positions = useMemo(() => {
     const pos = new Float32Array(count * 3);
     for (let i = 0; i < count; i++) {

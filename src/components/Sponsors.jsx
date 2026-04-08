@@ -46,7 +46,7 @@ export default function Sponsors() {
           }}
         >
           {/* Animated corners */}
-          {['top-left', 'top-right', 'bottom-left', 'bottom-right'].map((pos, i) => (
+          {['top-left', 'top-right', 'bottom-left', 'bottom-right'].map((pos) => (
             <div key={pos} style={{
               position: 'absolute',
               width: '20px', height: '20px',

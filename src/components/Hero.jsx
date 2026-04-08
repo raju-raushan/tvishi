@@ -33,6 +33,7 @@ function ParticleField() {
   const ref = useRef(null);
   const count = 3000;
 
+  // eslint-disable-next-line react-hooks/purity
   const positions = useMemo(() => {
     const arr = new Float32Array(count * 3);
     for (let i = 0; i < count; i++) {

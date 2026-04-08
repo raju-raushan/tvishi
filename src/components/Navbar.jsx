@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import sageLogo from '../assets/SageLogo.png';
+import ieeeLogo from '../assets/IEEE.png';
 
 const navLinks = [
   { label: 'About', href: '#about' },

@@ -1,6 +1,6 @@
-import { useRef } from 'react';
 import { motion } from 'framer-motion';
-import { FaExternalLinkAlt, FaRocket, FaUsers, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
+import { useRef } from 'react';
+import { FaClock, FaExternalLinkAlt, FaMapMarkerAlt, FaRocket, FaUsers } from 'react-icons/fa';
 
 function MagneticButton({ children, href, style }) {
   const btnRef = useRef(null);

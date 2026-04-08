@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { FaTrophy, FaMedal, FaAward } from 'react-icons/fa';
 
 const prizes = [

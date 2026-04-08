@@ -1,8 +1,13 @@
-import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import { useRef, useState } from 'react';
 import {
-  FaHeartbeat, FaDollarSign, FaShieldAlt, FaGraduationCap,
-  FaLock, FaRobot, FaBuilding, FaLightbulb
+    FaBuilding,
+    FaDollarSign,
+    FaGraduationCap,
+    FaHeartbeat,
+    FaLightbulb,
+    FaLock, FaRobot,
+    FaShieldAlt
 } from 'react-icons/fa';
 
 const tracks = [
