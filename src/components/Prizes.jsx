@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { FaTrophy, FaMedal, FaAward } from 'react-icons/fa';
 
 const prizes = [
@@ -87,7 +86,7 @@ export default function Prizes() {
           alignItems: 'flex-end',
           flexWrap: 'wrap',
         }}>
-          {displayOrder.map((prize, i) => (
+          {displayOrder.map((prize) => (
             <motion.div
               key={prize.rank}
               initial={{ opacity: 0, y: 50 }}

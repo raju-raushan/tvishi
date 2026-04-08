@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { FaInfoCircle, FaUniversity, FaUsers, FaLaptopCode } from 'react-icons/fa';
 
 export default function About() {

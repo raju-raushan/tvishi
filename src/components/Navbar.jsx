@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
-// Import the logo from your assets
-import ieeeLogo from '../assets/IEEE.png';
 import sageLogo from '../assets/SageLogo.png';
 
 const navLinks = [

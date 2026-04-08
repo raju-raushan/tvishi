@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 
 export function useWebGL() {
-  const [supported, setSupported] = useState(true);
-
-  useEffect(() => {
+  const [supported] = useState(() => {
     let isSupported = true;
     try {
       const canvas = document.createElement("canvas");
@@ -11,8 +9,8 @@ export function useWebGL() {
     } catch {
       isSupported = false;
     }
-    setSupported(isSupported);
-  }, []);
+    return isSupported;
+  });
 
   return supported;
 }

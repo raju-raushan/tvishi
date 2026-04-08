@@ -1,6 +1,6 @@
 import { PointMaterial, Points, Stage, useGLTF } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import gsap from "gsap";
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { FiArrowDown } from "react-icons/fi";

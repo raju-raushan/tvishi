@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 
 const events = [
   { time: 'March 2026', title: 'Registrations Open', desc: 'Sign up your team on Unstop. Limited spots available — first come, first served.', icon: '📋', status: 'done' },

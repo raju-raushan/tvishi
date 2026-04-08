@@ -1,5 +1,5 @@
 import { useState, lazy, Suspense } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import './index.css';
 
 import Loader from './components/Loader';
