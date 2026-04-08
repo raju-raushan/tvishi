@@ -32,7 +32,7 @@ export default function Loader({ onComplete }) {
     };
     const lineTimer = setInterval(addLine, 380);
     return () => clearInterval(lineTimer);
-  }, []);
+  }, [onComplete]);
 
   return (
     <AnimatePresence>
